@@ -1,0 +1,42 @@
+# Core ML Libraries
+torch
+transformers
+accelerate
+
+# Quantization Libraries
+bitsandbytes
+llama-cpp-python
+
+# Model and Dataset Handling
+datasets
+huggingface_hub
+safetensors
+
+# Performance and Monitoring
+psutil
+GPUtil
+nvidia-ml-py
+
+# Data Processing and Analysis
+numpy
+pandas
+matplotlib
+seaborn
+
+# Jupyter Environment (for Colab compatibility)
+jupyter
+ipython
+ipywidgets
+
+# Utilities
+tqdm
+packaging
+typing-extensions
+
+# Optional: For GGUF model conversion
+gguf
+
+# Development and Testing
+pytest
+black
+flake8

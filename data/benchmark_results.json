@@ -1,0 +1,394 @@
+{
+  "timestamp": "2025-07-21T13:28:17.751314",
+  "test_environment": {
+    "gpu_available": true,
+    "gpu_name": "Tesla T4",
+    "pytorch_version": "2.6.0+cu124",
+    "transformers_version": "4.53.2"
+  },
+  "test_prompts": [
+    "भारत की राजधानी क्या है?",
+    "What is machine learning? Explain in simple terms.",
+    "एक छोटी कहानी लिखें जो प्रेरणादायक हो।",
+    "Write a Python function to calculate factorial.",
+    "दीपावली का महत्व बताइए।",
+    "Explain the difference between AI and ML.",
+    "हिंदी भाषा का महत्व क्या है?",
+    "How does a neural network work?",
+    "भारतीय संस्कृति की विशेषताएं बताएं।",
+    "What are the benefits of renewable energy?"
+  ],
+  "results": {
+    "Original (FP16)": {
+      "model_name": "Original (FP16)",
+      "model_size_mb": 13103.5234375,
+      "param_count": 6870020096,
+      "avg_latency_ms": 4202.498698234558,
+      "tokens_per_second": 16.038077543798952,
+      "memory_before_mb": 13103.52392578125,
+      "memory_after_mb": 13111.650390625,
+      "responses": [
+        {
+          "prompt": "भारत की राजधानी क्या है?",
+          "response": "भारत के वर्तमान प्रधानमंत्री नरेंद्र मोदी हैं।",
+          "time_ms": 2340.895414352417,
+          "tokens": 10,
+          "tokens_per_sec": 4.2718696182188856
+        },
+        {
+          "prompt": "What is machine learning? Explain in simple terms.",
+          "response": "Machine learning (ML) is a type of artificial intelligence that allows computers to learn and improve from experience without being explicitly programmed. In other words, it enables computers to autom...",
+          "time_ms": 3312.7615451812744,
+          "tokens": 56,
+          "tokens_per_sec": 16.904325661911074
+        },
+        {
+          "prompt": "एक छोटी कहानी लिखें जो प्रेरणादायक हो।",
+          "response": "- अपनी कहानी को बहुत छोटा न रखें। आपकी कहानी में कम से कम 100 शब्द होने चाहिए। - अपने वाक्यों का विराम चिह्न और व्याकरण की दृष्टि से सही होना सुनिश्चित करें। - अपनी कहानी में एक स्पष्ट शुरुआत, मध्य और...",
+          "time_ms": 4145.2531814575195,
+          "tokens": 69,
+          "tokens_per_sec": 16.645545393620274
+        },
+        {
+          "prompt": "Write a Python function to calculate factorial.",
+          "response": "A function that takes an integer as input and returns the corresponding factorial value.",
+          "time_ms": 1122.9865550994873,
+          "tokens": 19,
+          "tokens_per_sec": 16.91916961402691
+        },
+        {
+          "prompt": "दीपावली का महत्व बताइए।",
+          "response": "भारत की स्वतंत्रता के लिए एक महत्वपूर्ण क्षण था। यह भारतीय राष्ट्रीय कांग्रेस और भारतीय राष्ट्रीय सेना के बीच एक बैठक थी, जो भारत को ब्रिटिश शासन से मुक्त कराने के लिए समर्पित एक गुप्त संगठन था। इस बै...",
+          "time_ms": 5939.888000488281,
+          "tokens": 100,
+          "tokens_per_sec": 16.835334267545047
+        },
+        {
+          "prompt": "Explain the difference between AI and ML.",
+          "response": "Artificial intelligence (AI) is a broad term that refers to any computer system or software application designed to perform tasks normally requiring human intelligence, such as visual perception, lang...",
+          "time_ms": 5288.520336151123,
+          "tokens": 88,
+          "tokens_per_sec": 16.63981499673018
+        },
+        {
+          "prompt": "हिंदी भाषा का महत्व क्या है?",
+          "response": "हिंदी भारत की आधिकारिक भाषा है और देश के लगभग 60% लोगों द्वारा बोली जाती है। यह एक समृद्ध इतिहास, संस्कृति और विरासत वाला एक विविध भाषा भी है। हिंदी में कई बोलियाँ हैं जो भारत के विभिन्न क्षेत्रों से ...",
+          "time_ms": 5957.487344741821,
+          "tokens": 100,
+          "tokens_per_sec": 16.785600071523724
+        },
+        {
+          "prompt": "How does a neural network work?",
+          "response": "A neural network is composed of multiple layers of artificial neurons, which are connected to each other through complex connections called synapses. Neurons in the first layer receive input signals f...",
+          "time_ms": 6020.967721939087,
+          "tokens": 100,
+          "tokens_per_sec": 16.6086258253174
+        },
+        {
+          "prompt": "भारतीय संस्कृति की विशेषताएं बताएं।",
+          "response": "भारत में एक समृद्ध सांस्कृतिक विरासत है जो देश के विविध इतिहास, भूगोल और लोगों से उपजी है। यहाँ कुछ विशेषताएँ दी गई हैं जो भारत की अनूठी संस्कृति को दर्शाती हैंः 1. पौराणिक कथाएँ और लोककथाएँः भारत अपन...",
+          "time_ms": 5985.905170440674,
+          "tokens": 100,
+          "tokens_per_sec": 16.705911161743003
+        },
+        {
+          "prompt": "What are the benefits of renewable energy?",
+          "response": "Renewable energy sources are virtually inexhaustible, do not pollute and can be used to generate a wide range of products.",
+          "time_ms": 1910.3217124938965,
+          "tokens": 32,
+          "tokens_per_sec": 16.751105214746513
+        }
+      ],
+      "individual_times": [
+        2340.895414352417,
+        3312.7615451812744,
+        4145.2531814575195,
+        1122.9865550994873,
+        5939.888000488281,
+        5288.520336151123,
+        5957.487344741821,
+        6020.967721939087,
+        5985.905170440674,
+        1910.3217124938965
+      ]
+    },
+    "8-bit Quantized": {
+      "model_name": "8-bit Quantized",
+      "model_size_mb": 13103.5234375,
+      "param_count": 6870020096,
+      "avg_latency_ms": 5954.14412021637,
+      "tokens_per_second": 6.197364265119448,
+      "memory_before_mb": 6940.83642578125,
+      "memory_after_mb": 6940.8779296875,
+      "responses": [
+        {
+          "prompt": "भारत की राजधानी क्या है?",
+          "response": "भारतीय राजधिनी का अर्थ है \"भारत के शासक\"। यह भारत में सर्वोच्च पद है और देश के संविधान द्वारा परिभाषित किया गया है। भारतीय राजधिनी भारत के राष्ट्रपति या प्रधानमंत्री हैं, जो एक लोकतांत्रिक रूप से निर्...",
+          "time_ms": 15989.797592163086,
+          "tokens": 100,
+          "tokens_per_sec": 6.25398785842117
+        },
+        {
+          "prompt": "What is machine learning? Explain in simple terms.",
+          "response": "Machine learning is a type of artificial intelligence that enables computers to learn from data without being explicitly programmed. It involves training algorithms on large amounts of data, allowing ...",
+          "time_ms": 12736.187219619751,
+          "tokens": 79,
+          "tokens_per_sec": 6.202798265897242
+        },
+        {
+          "prompt": "एक छोटी कहानी लिखें जो प्रेरणादायक हो।",
+          "response": "",
+          "time_ms": 237.47539520263672,
+          "tokens": 1,
+          "tokens_per_sec": 4.210962567918687
+        },
+        {
+          "prompt": "Write a Python function to calculate factorial.",
+          "response": "```python\ndef factorial(n):\n    if n <= 1:\n        return 1\n    else:\n        return n * factorial(n-1)\n```",
+          "time_ms": 6773.00763130188,
+          "tokens": 43,
+          "tokens_per_sec": 6.348730481458902
+        },
+        {
+          "prompt": "दीपावली का महत्व बताइए।",
+          "response": "भारत के संविधान में विशेष उल्लेख।",
+          "time_ms": 1425.5921840667725,
+          "tokens": 9,
+          "tokens_per_sec": 6.31316592542321
+        },
+        {
+          "prompt": "Explain the difference between AI and ML.",
+          "response": "Artificial Intelligence (AI) is a subset of Machine Learning (ML).",
+          "time_ms": 3079.927921295166,
+          "tokens": 20,
+          "tokens_per_sec": 6.493658459250447
+        },
+        {
+          "prompt": "हिंदी भाषा का महत्व क्या है?",
+          "response": "भारतीय भाषाओं के बीच अंतर, हिंदी बनाम अंग्रेजी में अंतर",
+          "time_ms": 2030.324935913086,
+          "tokens": 13,
+          "tokens_per_sec": 6.402915991451185
+        },
+        {
+          "prompt": "How does a neural network work?",
+          "response": "",
+          "time_ms": 427.9181957244873,
+          "tokens": 2,
+          "tokens_per_sec": 4.673790504780705
+        },
+        {
+          "prompt": "भारतीय संस्कृति की विशेषताएं बताएं।",
+          "response": "भारत में एक समृद्ध सांस्कृतिक विरासत है जो इसकी विविध आबादी और इतिहास को दर्शाती है। भारत की अनूठी संस्कृति का पता कई अलग-अलग परंपराओं, रीति-रिवाजों और मान्यताओं से लगाया जा सकता है। यहाँ कुछ विशेषताए...",
+          "time_ms": 16467.304706573486,
+          "tokens": 100,
+          "tokens_per_sec": 6.072639195173306
+        },
+        {
+          "prompt": "What are the benefits of renewable energy?",
+          "response": "",
+          "time_ms": 373.9054203033447,
+          "tokens": 2,
+          "tokens_per_sec": 5.348946261269562
+        }
+      ],
+      "individual_times": [
+        15989.797592163086,
+        12736.187219619751,
+        237.47539520263672,
+        6773.00763130188,
+        1425.5921840667725,
+        3079.927921295166,
+        2030.324935913086,
+        427.9181957244873,
+        16467.304706573486,
+        373.9054203033447
+      ]
+    },
+    "4-bit Quantized": {
+      "model_name": "4-bit Quantized",
+      "model_size_mb": 6927.5234375,
+      "param_count": 3632017408,
+      "avg_latency_ms": 2098.9765882492065,
+      "tokens_per_second": 12.529915839574606,
+      "memory_before_mb": 3948.11865234375,
+      "memory_after_mb": 3948.12060546875,
+      "responses": [
+        {
+          "prompt": "भारत की राजधानी क्या है?",
+          "response": "франटी, भारत का राजधानी।",
+          "time_ms": 1011.2028121948242,
+          "tokens": 11,
+          "tokens_per_sec": 10.8781343043582
+        },
+        {
+          "prompt": "What is machine learning? Explain in simple terms.",
+          "response": "संतुलित by the positive and negative impact of Machine Learning for businesses, society, and individuals.",
+          "time_ms": 1500.1099109649658,
+          "tokens": 20,
+          "tokens_per_sec": 13.332356418560511
+        },
+        {
+          "prompt": "एक छोटी कहानी लिखें जो प्रेरणादायक हो।",
+          "response": "",
+          "time_ms": 207.02719688415527,
+          "tokens": 1,
+          "tokens_per_sec": 4.830283243218343
+        },
+        {
+          "prompt": "Write a Python function to calculate factorial.",
+          "response": "विचारों की सूची को आरंभ करें।\n\ndef factorial(n):\n    return n * (n-1)",
+          "time_ms": 2507.293462753296,
+          "tokens": 26,
+          "tokens_per_sec": 10.36974745327538
+        },
+        {
+          "prompt": "दीपावली का महत्व बताइए।",
+          "response": "",
+          "time_ms": 206.62474632263184,
+          "tokens": 1,
+          "tokens_per_sec": 4.839691362227066
+        },
+        {
+          "prompt": "Explain the difference between AI and ML.",
+          "response": "Unterscheidung एआई और एमएल।\nए. आई. का अर्थ है आर्टिफिशियल इंटेलिजेंस, जबकि एम. एल. का अर्थ है मशीन लर्निंग।",
+          "time_ms": 2370.0714111328125,
+          "tokens": 32,
+          "tokens_per_sec": 13.50170288105585
+        },
+        {
+          "prompt": "हिंदी भाषा का महत्व क्या है?",
+          "response": "ϊहों, 24x7 उपलब्ध हो।",
+          "time_ms": 1100.4505157470703,
+          "tokens": 14,
+          "tokens_per_sec": 12.72206228236962
+        },
+        {
+          "prompt": "How does a neural network work?",
+          "response": "विचारों का एक सरल समूह है। ये विचार यह सुनिश्चित करने के लिए क्रम में व्यवस्थित किए जाते हैं कि नेटवर्क अपने कार्यों को कुशलता से पूरा करता है। प्रत्येक विचार एक न्यूरॉन की तरह काम करता है, जो इनपुट ड...",
+          "time_ms": 6126.766204833984,
+          "tokens": 87,
+          "tokens_per_sec": 14.199986924808309
+        },
+        {
+          "prompt": "भारतीय संस्कृति की विशेषताएं बताएं।",
+          "response": "विचारों, भावनाओं और संवेदनाओं के बारे में बात करें।",
+          "time_ms": 1402.4658203125,
+          "tokens": 14,
+          "tokens_per_sec": 9.98241796501001
+        },
+        {
+          "prompt": "What are the benefits of renewable energy?",
+          "response": "वायु प्रदूषण को कम करना, ग्रीनहाउस गैस उत्सर्जन में कमी, जीवाश्म ईंधन की लागत में कमी और रोजगार सृजन जैसे कई लाभ हैं। अक्षय ऊर्जा स्रोत भी अधिक विश्वसनीय हैं और कभी-कभी पारंपरिक स्रोतों की तुलना में अ...",
+          "time_ms": 4557.753801345825,
+          "tokens": 57,
+          "tokens_per_sec": 12.506160377326413
+        }
+      ],
+      "individual_times": [
+        1011.2028121948242,
+        1500.1099109649658,
+        207.02719688415527,
+        2507.293462753296,
+        206.62474632263184,
+        2370.0714111328125,
+        1100.4505157470703,
+        6126.766204833984,
+        1402.4658203125,
+        4557.753801345825
+      ]
+    },
+    "GGUF Quantized": {
+      "model_name": "GGUF Quantized",
+      "model_size_mb": 3979.2,
+      "param_count": 3632017408,
+      "responses": [
+        {
+          "prompt": "भारत की राजधानी क्या है?",
+          "response": "\n India has no official capital, but it does have several cities that are considered capitals. सबसे महत्वपूर्ण शहरों में से एक नई दिल्ली है, जो भारत के राष्ट्रपति और सरकार का घर है। अन्य प्रमुख शहरों ...",
+          "time_ms": 3781.116247177124,
+          "tokens": 78.0,
+          "tokens_per_sec": 20.628828869843034
+        },
+        {
+          "prompt": "What is machine learning? Explain in simple terms.",
+          "response": "\nMachine learning (ML) is a type of artificial intelligence that allows computers to learn from data without being explicitly programmed. It's a subset of deep learning, which focuses on using neural ...",
+          "time_ms": 3583.824634552002,
+          "tokens": 104.0,
+          "tokens_per_sec": 29.019277058739394
+        },
+        {
+          "prompt": "एक छोटी कहानी लिखें जो प्रेरणादायक हो।",
+          "response": "\n1. एक दिन, एक छोटा लड़का था जिसका नाम प्रमोद था। वह अपने परिवार के साथ रहता था और हमेशा स्कूल जाना चाहता था। लेकिन उसके माता-पिता उसे स्कूल जाने देने में संकोच करते थे क्योंकि उन्हें लगता था कि यह बह...",
+          "time_ms": 3608.875513076782,
+          "tokens": 109.2,
+          "tokens_per_sec": 30.258732839166424
+        },
+        {
+          "prompt": "Write a Python function to calculate factorial.",
+          "response": "",
+          "time_ms": 422.9264259338379,
+          "tokens": 0.0,
+          "tokens_per_sec": 0.0
+        },
+        {
+          "prompt": "दीपावली का महत्व बताइए।",
+          "response": "\n भारत के लिए स्वतंत्रता संग्राम के दौरान, यह भारतीय क्रांतिकारियों द्वारा एक महत्वपूर्ण गढ़ था और ब्रिटिश औपनिवेशिक शासन से स्वतंत्रता प्राप्त करने में महत्वपूर्ण भूमिका निभाई थी। भारत में स्वतंत्रता...",
+          "time_ms": 4731.539726257324,
+          "tokens": 83.2,
+          "tokens_per_sec": 17.584127961197886
+        },
+        {
+          "prompt": "Explain the difference between AI and ML.",
+          "response": "\nArtificial intelligence (AI) is a broad field of study that focuses on creating machines that can think like humans, learn from experience, and perform tasks without being explicitly programmed to do...",
+          "time_ms": 2904.6990871429443,
+          "tokens": 79.3,
+          "tokens_per_sec": 27.30059039540626
+        },
+        {
+          "prompt": "हिंदी भाषा का महत्व क्या है?",
+          "response": "\n भारत में कई भाषाओं को आधिकारिक दर्जा प्राप्त है, और हिंदी एक ऐसी भाषा है जो देश के सांस्कृतिक और सामाजिक जीवन में महत्वपूर्ण भूमिका निभाती है। यहाँ हिंदी भाषा के महत्व पर कुछ बिंदु दिए गए हैंः भाषा ...",
+          "time_ms": 3308.5763454437256,
+          "tokens": 92.3,
+          "tokens_per_sec": 27.89719515679524
+        },
+        {
+          "prompt": "How does a neural network work?",
+          "response": "\n\nA neural network is an artificial intelligence (AI) system that performs certain functions. Most popular types of these AIs employ an inter-connected web or 'neurons', composed out of two elements -...",
+          "time_ms": 4901.575803756714,
+          "tokens": 97.5,
+          "tokens_per_sec": 19.891562204398245
+        },
+        {
+          "prompt": "भारतीय संस्कृति की विशेषताएं बताएं।",
+          "response": "\nIndian culture is a complex and diverse mix of traditions, beliefs, values, customs, and practices that has been shaped by the country's history, geography, social structures, religious practices, ec...",
+          "time_ms": 3382.392406463623,
+          "tokens": 79.3,
+          "tokens_per_sec": 23.44494383574795
+        },
+        {
+          "prompt": "What are the benefits of renewable energy?",
+          "response": "\n अक्षय ऊर्जा स्रोतों से प्राप्त होने वाले लाभों में शामिल हैंः कम कार्बन डाइऑक्साइड उत्सर्जन-अक्षय ऊर्जा स्रोत वायुमंडल में छोड़े जाने वाले ग्रीनहाउस गैस उत्सर्जन को काफी हद तक समाप्त कर देते हैं, जि...",
+          "time_ms": 3444.5581436157227,
+          "tokens": 76.7,
+          "tokens_per_sec": 22.267006914125908
+        }
+      ],
+      "individual_times": [
+        3781.116247177124,
+        3583.824634552002,
+        3608.875513076782,
+        422.9264259338379,
+        4731.539726257324,
+        2904.6990871429443,
+        3308.5763454437256,
+        4901.575803756714,
+        3382.392406463623,
+        3444.5581436157227
+      ],
+      "total_time": 34.0700843334198,
+      "avg_latency_ms": 3407.00843334198,
+      "tokens_per_second": 23.466334634685943
+    }
+  }
+}
